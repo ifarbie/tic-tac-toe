@@ -35,7 +35,7 @@ function turnClick(square) {
             setTimeout(() => {
                 turn(bestSpot(), aiPlayer);
                 isPlayerTurn = true;  // Unlock player turn after AI do a turn
-            }, 500);
+            }, 250);
         }
     }
 }
